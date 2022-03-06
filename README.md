@@ -6,13 +6,14 @@ Below are remarks from the lector, done after the presentation.
 ## Transpiling
 Transpiling is the process which transforms our TypeScript code to a JavaScript one. JavaScript has multiple module resolution standarts: commonjs (or the expirimental 'node12') for Node.js and large variety of the other standards for browsers (amd, umd, es2015).
 
-### Transpiling Typescript for Node.js
-If you want to transpile your typescript and use it in a Node.js application:
-
-
+### Transpiling and run command:
 ```bash
 npx ts-node tickets.ts
 ```
+
+### Transpiling Typescript for Node.js
+If you want to transpile your typescript and use it in a Node.js application:
+
 
 ```
 tsc ./day-one/typescript-demo/index.ts --module commonjs
