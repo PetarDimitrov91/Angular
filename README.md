@@ -1,0 +1,1 @@
+# This repository has all lectures and exercises from the Soft-Uni Angular course!
