@@ -11,6 +11,8 @@ Transpiling is the process which transforms our TypeScript code to a JavaScript 
 npx ts-node tickets.ts
 ```
 
+
+
 ### Transpiling Typescript for Node.js
 If you want to transpile your typescript and use it in a Node.js application:
 
@@ -117,3 +119,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## installing angular locally
+```bash
+npm i @angular/cli
+```
+
+
+```bash
+npx -p @angular/cli ng new <project-name>
+```
+
+
+```bash
+npx ng g component home
+```
